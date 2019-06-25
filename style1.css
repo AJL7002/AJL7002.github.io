@@ -1,0 +1,29 @@
+    .image {
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        color: yellow;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    a {
+        color: yellow
+    }
+
+    .paragraph {
+        color: yellow;
+        /* background-color: black; */
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    body {
+        background-repeat: repeat;
+        background-size: 100%;
+        background-image: url("juventus\ pic\ italy.jpg")
+    }
