@@ -18,3 +18,18 @@ function convertMS(milliseconds) {
         seconds: seconds
     };
 }
+var x = convertMS(new Date - birthday)
+var age = x.year + " years, " + x.day + " days, and " + x.hour + " hours old."
+function swapcolor() {
+    var color = getRandomColor();
+    document.getElementById('link').style.color = color;
+    document.getElementById('heading').style.color = color;
+}
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}  

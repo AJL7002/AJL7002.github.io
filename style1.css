@@ -6,24 +6,23 @@
     }
 
     h1 {
-        color: yellow;
+        color:green;
         text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        font-family: Helvetica;
+        font-size: 18pt
     }
 
     a {
-        color: yellow
+        color:green
     }
 
     .paragraph {
-        color: yellow;
+        color: green;
         /* background-color: black; */
         text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        font-family: Helvetica
     }
-
     body {
-        background-repeat: repeat;
         background-size: 100%;
         background-image: url("juventus\ pic\ italy.jpg")
     }
