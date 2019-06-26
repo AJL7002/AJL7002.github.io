@@ -1,28 +1,41 @@
-    .image {
-        height: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.image {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    h1 {
-        color:green;
-        text-align: center;
-        font-family: Helvetica;
-        font-size: 18pt
-    }
+h1 {
+    color:green;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18pt
+}
 
-    a {
-        color:green
+a {
+    color:green
+}
+.paragraph {
+    color: green;
+   text-align: center;
+    font-family: Helvetica
+}
+html {
+    background-size: 100%;
+    background-image: url("juventus\ pic\ italy.jpg");
+    background-attachment: fixed;
+}
+.tint {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5)
     }
-
-    .paragraph {
-        color: green;
-        /* background-color: black; */
-        text-align: center;
-        font-family: Helvetica
-    }
-    body {
-        background-size: 100%;
-        background-image: url("juventus\ pic\ italy.jpg")
-    }
+.hexoutput{
+    height: 50px;
+    width: 50px;
+    background-color: black
+}
