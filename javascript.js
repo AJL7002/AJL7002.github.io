@@ -24,6 +24,7 @@ function swapcolor() {
     var color = getRandomColor();
     document.getElementById('link').style.color = color;
     document.getElementById('heading').style.color = color;
+    document.getElementById('button directions').style.color = color;
     document.getElementById('tint').style.background = hexToRGB(color, 0.5)
 }
 function getRandomColor() {
@@ -46,8 +47,13 @@ function hexToRGB(hex, alpha) {
     }
 }
 function displaycolor() {
+    var hexinput = gethexinput();
+    var regExp = new RegExp(/^#[a-fA-F\d]{6}$/i);
+    if (!regExp.test(hexinput))
+        alert('Invalid character input. Try again.');
     document.getElementById('hexoutput').style.backgroundColor = gethexinput()
 }
 function gethexinput() {
     return '#' + document.getElementById("hexinput").value
 }
+setInterval(swapcolor, 1500);
