@@ -27,7 +27,7 @@ You can also open this from your bookmarks if it's saved there
 
 To change into any directory, type `cd` and then the location of that directory. For example:
 
-`$ cd ~/workspace-CODE/AJL7070.github.io`
+`$ cd ~/workspace-CODE/AJL7002.github.io`
 
 If you don't type any directory, it will change into the home directory:
 
